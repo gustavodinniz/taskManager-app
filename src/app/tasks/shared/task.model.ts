@@ -1,4 +1,4 @@
-export class Tasks {
+export class Task {
 
   constructor(
     public id?: number,
