@@ -15,13 +15,6 @@ export class ListTaskComponent implements OnInit {
 
   ngOnInit(): void {
     this.tasks = this.listAll();
-    this.tasks = [
-      new Task(1, "Tarefa 1", false),
-      new Task(2, "Tarefa 2", true),
-      new Task(3, "Tarefa 3", false),
-      new Task(4, "Tarefa 4", true),
-      new Task(5, "Tarefa 5", false),
-    ]
   }
 
   listAll(): Task[] {
